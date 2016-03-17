@@ -1,0 +1,27 @@
+.container {
+  border: solid 1px black;
+  width: 300px;
+
+  .projecten {
+    margin: 25px;
+    background-color: blue;
+
+    h3 {
+      color: white;
+    }
+
+    p {
+      color: white;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  .samenwerken {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}

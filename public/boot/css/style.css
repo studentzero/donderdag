@@ -1,0 +1,9 @@
+body {
+  background-color: #666; }
+  body P {
+    background-color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic; }
+  body a {
+    color: blue; }
