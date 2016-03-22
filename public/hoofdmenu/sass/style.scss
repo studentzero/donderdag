@@ -4,9 +4,7 @@
 
 
 .menu {
-  width: 500px;
-  font-size: 50px;
-
+  width: 600px;
   ul {
     list-style: none;
     padding: 0;
@@ -14,25 +12,23 @@
     text-align: center;
     li {
       display: inline;
-      padding-left: 16px;
-      margin-right: 13px;
       &:nth-child(2):before {
-        content: ".";
+        content: " \2219 ";
         color: green;
-        line-height: 30px;
-        margin-down: 50px;
+        font-size: 20px;
+        margin-right: 5px;
       }
       &:nth-child(3):before {
-        content: ".";
+        content: " \2219 ";
         color: red;
-        font-size: 50px;
-        margin-right: 11px;
+        font-size: 20px;
+        margin-right: 5px;
       }
       &:nth-child(4):before {
-        content: ".";
+        content: " \2219 ";
         color: orange;
-        font-size: 50px;
-        margin-right: 11px;
+        font-size: 20px;
+        margin-right: 5px;
       }
       a {
         color: black;

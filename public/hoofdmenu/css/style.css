@@ -1,30 +1,27 @@
 .menu {
-  width: 500px;
-  font-size: 50px; }
+  width: 600px; }
   .menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center; }
     .menu ul li {
-      display: inline;
-      padding-left: 16px;
-      margin-right: 13px; }
+      display: inline; }
       .menu ul li:nth-child(2):before {
-        content: ".";
+        content: " \2219 ";
         color: green;
-        line-height: 30px;
-        margin-down: 50px; }
+        font-size: 20px;
+        margin-right: 5px; }
       .menu ul li:nth-child(3):before {
-        content: ".";
+        content: " \2219 ";
         color: red;
-        font-size: 50px;
-        margin-right: 11px; }
+        font-size: 20px;
+        margin-right: 5px; }
       .menu ul li:nth-child(4):before {
-        content: ".";
+        content: " \2219 ";
         color: orange;
-        font-size: 50px;
-        margin-right: 11px; }
+        font-size: 20px;
+        margin-right: 5px; }
       .menu ul li a {
         color: black;
         font-family: sans-serif;
