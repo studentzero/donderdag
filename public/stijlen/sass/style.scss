@@ -6,15 +6,17 @@ h1 {
 p {
   font-size: 12px;
   text-align: center;
+  padding: 5px;
+  font-family: sans-serif;
 }
 
 .container {
   width: 400px;
-  height: 500px;
+  height: 350px;
   border: 1px solid black;
 
   .projects {
-    border: 1px solid blue;
+    border: 1px solid #1f7e9a;
     background-color: #1f7e9a;
     width: 350px;
     height: 150px;
@@ -38,17 +40,19 @@ p {
       
       .down {
         float: left;
-        height: 50px;
+        height: 55px;
+        color: white;
         .left {
           width: 148px;
-          border: 1px solid green;
+          height: 49px;
+          border-right: 1px solid white;
           position: relative;
           float: left;
           margin: auto;
         }
         .right {
           width: 148px;
-          border: 1px solid green;
+          border: none;
           position: relative;
           float: right;
           margin: auto;
@@ -61,5 +65,16 @@ p {
     width: 300px;
     margin: auto;
   }
+
+  .rounded {
+      background-color: #1f7e9a;
+      height: 30px;
+      width: 200px;
+      margin: auto;
+      border-radius: 25px;
+      color: white;
+      margin-top: 1px;
+    }
+
 }
 
